@@ -16,5 +16,3 @@ Run these commands:
 or Run by docker compose
 
 test
-
-![image](https://github.com/Prajjwal998/node-cicd/assets/118663769/177df187-d09c-45fc-9df6-d10880eba777)
