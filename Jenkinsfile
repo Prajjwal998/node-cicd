@@ -12,7 +12,7 @@ pipeline {
 
         stage("deploy"){
             steps{
-                sh "docker-compose down && docker-compose up -d"
+                sh "docker run -p 8080:8080 node-app-test-new"
                 echo 'deployment ho gayi'
             }
         }
