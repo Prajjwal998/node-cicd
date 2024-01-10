@@ -12,7 +12,7 @@ pipeline {
 
         stage("deploy"){
             steps{
-                sh "docker run -p 8081:8000 node-app-test-new"
+                sh "docker run -p 8000:8000 node-app-test-new"
                 echo 'deployment ho gayi'
             }
         }
